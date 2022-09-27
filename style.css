@@ -1,0 +1,200 @@
+* {
+    font-family: Helvetica, Arial, sans-serif;
+    color: seashell;
+    opacity: 0.9;
+    background-color: rgba(0, 0, 0, 1);
+       
+}
+
+p {
+    font-size: 22px;
+}
+
+            /* NAVIGATION */
+.logo {
+    margin-left: 10px;
+    height: 50px;
+    width: auto;
+}
+.navigation {
+    border-bottom: 1px solid seashell;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+}
+.navigation > div {
+    display: flex;
+    height: 69px;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 10px;
+}
+.nav {
+    text-decoration: underline;
+    display: inline;
+    margin-left: 20px;
+    font-size: 22px;
+    padding: 5px;    
+}
+header {
+    opacity: 1;
+}
+.nav:hover {
+    opacity: 1;
+    border-radius: 6px;
+    color: rgb(252, 213, 156);
+}
+
+
+            /* OUR MISSION */
+.title {
+    position: relative;
+    display: block;
+    margin-top: 69px;
+    text-align: center;
+}
+.background {
+    position: relative;
+    width: 1200px;
+    height: 700px;
+    margin-left: 30px;
+    margin-right: 30px;
+    object-fit: cover;
+}
+.mission {
+    opacity: 1;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 100%;
+    padding-right: 30px;
+    padding-left: 30px;
+    font-size: 22px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+
+            /* TEA OF THE MONTH */
+.tea {
+    font-size: 22px;
+    font-weight: bolder;
+    line-height: 16px;
+    text-align: center;
+}
+.month {
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 150px;
+    text-align: center;
+    width: 1000px;
+}
+.monthflex {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+.monthflex > div > img {
+    height: 200px;
+    width: 300px;
+}
+.monthflex > div {
+    display: flex;
+    flex-direction: column;
+    margin: 0 15px;
+}
+.monthflex > div > h4 {
+    margin-top: 10px;
+    text-align: center;
+}
+.monthflex > div >h4:hover {
+    text-decoration: underline;
+    color: orange;    
+}
+
+
+            /* LOCATIONS */
+.locations {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 22px;
+}
+.background-locations {
+    display: flex;
+    justify-content: center;
+    width: 1200px;
+    height: 500px;
+    margin-left: 30px;
+    margin-right: 30px;
+    object-fit: cover;
+    object-position: 25% 25%;
+}
+.box {
+    position: absolute;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-around;
+    opacity: 1;
+    margin: 20px;
+    background-color: unset;
+}
+.box > h2 {
+    background-color: unset;
+    margin-bottom: 0;
+}
+.locations-text {
+    display: inline-flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    opacity: 1;   
+    background-color: unset;
+}
+.loc-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 22px;
+    background-color: black;
+    opacity: 1;
+    margin-left: 40px;
+    margin-top: 15px;
+    width: 300px;
+    height: 250px;
+    padding-top: 0;
+    padding-bottom: 0px;
+}
+.loc-box > h3 {
+    margin: 0;
+    padding: 0;
+}
+
+footer {
+    text-align: center;
+}
+.contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    height: 180px;
+    line-height: 15px;
+}
+.contact > h5+h5 {
+    margin: 0;
+    padding: 0;
+}
+.copyright {
+    text-align: left;
+    margin-left: 20px;
+    margin-top: 0;
+    padding: 0;
+}
